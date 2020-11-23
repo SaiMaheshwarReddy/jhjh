@@ -1,0 +1,15 @@
+.about__page__header {
+  width: 100%;
+  margin: 1.5rem 0;
+  text-align: center;
+}
+h1 {
+  display: inline-block;
+  border-bottom: 5px solid #00c2ff;
+}
+
+.about__text {
+  padding: 10px 20px;
+  line-height: 1.5;
+  margin: 20px 0;
+}

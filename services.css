@@ -1,0 +1,62 @@
+.services__page {
+  width: 100vw;
+}
+.services__page__header {
+  width: 100%;
+  margin: 2rem 0;
+  text-align: center;
+}
+h1 {
+  display: inline-block;
+  border-bottom: 5px solid #00c2ff;
+}
+.services__page ul {
+  width: 90%;
+  margin: auto;
+}
+
+.services__page ul li {
+  background-color: #9fd3e7;
+  padding: 1.2em 1em;
+  margin-bottom: 1rem;
+  font-size: 1rem;
+  font-weight: bold;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.services__page ul li i {
+  font-size: 0.8rem;
+  margin-right: 0.8rem;
+}
+
+.services__page ul li button {
+  margin-right: 2em;
+  padding: 8px 15px;
+  border: none;
+  outline: none;
+  font-weight: bold;
+  cursor: pointer;
+}
+.services__page ul li button:hover {
+  background-color: #39374d;
+  color: white;
+}
+
+@media (max-width: 415px) {
+  .services__page ul li {
+    padding: 10px;
+    font-size: 0.8rem;
+    margin-bottom: 1.5rem;
+  }
+  .services__page ul li i {
+    font-size: 0.8rem;
+    margin-right: 0.5rem;
+  }
+  .services__page ul li button {
+    margin-right: 5px;
+    background-color: #39374d;
+    color: white;
+    display: none;
+  }
+}
